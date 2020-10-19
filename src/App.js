@@ -63,14 +63,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>accel</div>
-        <div>{orientation[0]}</div>
-        <div>{orientation[1]}</div>
-        <div>{orientation[2]}</div>
-        <div>accel + grav</div>
-        <div>{orientation[3]}</div>
-        <div>{orientation[4]}</div>
-        <div>{orientation[5]}</div>
-        <div>orientation</div>
+        <div>{Number(orientation[0]).toFixed(2)}</div>
+        <div>{Number(orientation[1]).toFixed(2)}</div>
+        <div>{Number(orientation[2]).toFixed(2)}</div>
+        <br/><br/><div>accel + grav</div>
+        <div>{Number(orientation[3]).toFixed(2)}</div>
+        <div>{Number(orientation[4]).toFixed(2)}</div>
+        <div>{Number(orientation[5]).toFixed(2)}</div>
+        <br/><br/><div>orientation</div>
         <div>{Math.round(orientation[6])}</div>
         <div>{Math.round(orientation[7])}</div>
         <div>{Math.round(orientation[8])}</div>
