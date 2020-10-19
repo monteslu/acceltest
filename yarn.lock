@@ -4952,6 +4952,11 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+filters@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/filters/-/filters-1.0.6.tgz#2ad2750c436bdd2bcea65e616ea45fbdc3a5a2ff"
+  integrity sha1-KtJ1DENr3SvOpl5hbqRfvcOlov8=
+
 finalhandler@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.1.2.tgz#b7e7d000ffd11938d0fdb053506f6ebabe9f587d"
@@ -6804,6 +6809,13 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+kinetics@^0.1.0:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/kinetics/-/kinetics-0.1.4.tgz#5bc779e08313bc5412f7bdf5a0ac8373a587ce3c"
+  integrity sha1-W8d54IMTvFQS9731oKyDc6WHzjw=
+  dependencies:
+    linear-algebra "^3.1.3"
+
 kleur@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
@@ -6851,6 +6863,11 @@ levn@^0.3.0, levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
+
+linear-algebra@^3.1.3:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/linear-algebra/-/linear-algebra-3.1.4.tgz#e5dc0ab5ba1fbd23473209bf923d6238db78a56b"
+  integrity sha1-5dwKtbofvSNHMgm/kj1iONt4pWs=
 
 lines-and-columns@^1.1.6:
   version "1.1.6"
@@ -7978,6 +7995,14 @@ pbkdf2@^3.0.3:
     ripemd160 "^2.0.1"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+pedometer@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/pedometer/-/pedometer-0.0.5.tgz#6074c39461572d44568a3783df338f362bc8ed17"
+  integrity sha1-YHTDlGFXLURWijeD3zOPNivI7Rc=
+  dependencies:
+    filters "^1.0.6"
+    kinetics "^0.1.0"
 
 performance-now@^2.1.0:
   version "2.1.0"
